@@ -58,4 +58,20 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="tbl_Users.sql" />
+    <Build Include="tbl_Categories.sql" />
+    <Build Include="tbl_Customers.sql" />
+    <Build Include="tbl_Order_Details.sql" />
+    <Build Include="tbl_Orders.sql" />
+    <Build Include="tbl_Products.sql" />
+    <Build Include="SP_LOGIN.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="D.T_Product_Management_DB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D.T_Product_Management_DB.publish.xml" />
+    <None Include="D_1.T_Product_Management_DB.publish.xml" />
+  </ItemGroup>
 </Project>
