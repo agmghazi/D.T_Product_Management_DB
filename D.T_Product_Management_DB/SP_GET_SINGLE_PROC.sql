@@ -1,0 +1,20 @@
+﻿CREATE PROCEDURE [dbo].[SP_GET_SINGLE_PROC]
+
+
+	@ID VARCHAR (50)
+AS
+	SELECT
+	
+	ID_PRODUCT,
+	[LABEL_PRODUCT] ,
+	[QTE_IN_STOCK] ,
+	[PRICE] ,
+	[IMAGE_PRODUCT] ,
+	DESCRIPTION_CAT
+	FROM tbl_Products
+	INNER JOIN tbl_Categories
+	ON tbl_Categories.ID_CAT=tbl_Products.ID_CAT
+	
+	WHERE ID_PRODUCT=@ID
+
+

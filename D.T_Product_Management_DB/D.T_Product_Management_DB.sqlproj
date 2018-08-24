@@ -71,14 +71,10 @@
     <Build Include="SP_VerifyProductID.sql" />
     <Build Include="SP_GET_ALL_PRODUCT.sql" />
     <Build Include="SP_SEARCH_PRODUCT.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="D.T_Product_Management_DB.refactorlog" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="D.T_Product_Management_DB.publish.xml" />
-    <None Include="D_1.T_Product_Management_DB.publish.xml" />
-    <None Include="D_2.T_Product_Management_DB.publish.xml" />
-    <None Include="D_3.T_Product_Management_DB.publish.xml" />
+    <Build Include="SP_DELETE_PRODUCT.sql" />
+    <Build Include="SP_SELECT_IMAGE_PRODUCT.sql" />
+    <Build Include="SP_UPDATE_PRODUCT.sql" />
+    <Build Include="SP_GET_SINGLE_PROC.sql" />
+    <Build Include="SP_GET_SINGLE_CATEGORY.sql" />
   </ItemGroup>
 </Project>
