@@ -81,5 +81,6 @@
     <Build Include="SP_Edit_CUSTOM.sql" />
     <Build Include="SP_DELETE_CUSTOMER.sql" />
     <Build Include="SP_SEARCH_CUSTOMER.sql" />
+    <Build Include="SP_GET_LAST_ORDER.sql" />
   </ItemGroup>
 </Project>

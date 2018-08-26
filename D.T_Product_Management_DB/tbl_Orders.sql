@@ -1,8 +1,10 @@
 ﻿CREATE TABLE [dbo].[tbl_Orders]
 (
-[ID_ORDER] [int] IDENTITY(1,1) NOT NULL,
+[ID_ORDER] [int] NOT NULL,
 	[DATE_ORDER] [datetime] NULL,
 	[CUSTOMER_ID] [int] NULL, 
+    [DESCRIPTION_ORDER] VARCHAR(250) NULL, 
+    [SALESMAN] VARCHAR(75) NULL, 
     CONSTRAINT [PK_tbl_Orders] PRIMARY KEY ([ID_ORDER]),
 
 )

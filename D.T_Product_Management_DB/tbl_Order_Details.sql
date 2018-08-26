@@ -2,6 +2,10 @@
 (
 	[ID_PRODUCT] [varchar](30) NULL,
 	[ID_ORDER] [int] NULL,
-	[QTE] [int] NULL
+	[QTE] [int] NULL, 
+    [PRICE] VARCHAR(50) NULL, 
+    [DISCOUNT] FLOAT NULL, 
+    [AMOUNT] VARCHAR(50) NULL, 
+    [TOTAL_AMOUNT] VARCHAR(50) NULL
 ) ON [PRIMARY]
 
