@@ -61,7 +61,6 @@
   <ItemGroup>
     <Build Include="tbl_Users.sql" />
     <Build Include="tbl_Categories.sql" />
-    <Build Include="tbl_Customers.sql" />
     <Build Include="tbl_Order_Details.sql" />
     <Build Include="tbl_Orders.sql" />
     <Build Include="tbl_Products.sql" />
@@ -76,5 +75,11 @@
     <Build Include="SP_UPDATE_PRODUCT.sql" />
     <Build Include="SP_GET_SINGLE_PROC.sql" />
     <Build Include="SP_GET_SINGLE_CATEGORY.sql" />
+    <Build Include="SP_ADD_CUSTOMERS.sql" />
+    <Build Include="SP_SELECT_ALL_CUSTOMER.sql" />
+    <Build Include="tbl_Customers.sql" />
+    <Build Include="SP_Edit_CUSTOM.sql" />
+    <Build Include="SP_DELETE_CUSTOMER.sql" />
+    <Build Include="SP_SEARCH_CUSTOMER.sql" />
   </ItemGroup>
 </Project>
