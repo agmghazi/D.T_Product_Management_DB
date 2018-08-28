@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[tbl_Order_Details]
+﻿CREATE TABLE [dbo].[tbl_Order_Detail]
 (
 	[ID_PRODUCT] [varchar](30) NULL,
 	[ID_ORDER] [int] NULL,
